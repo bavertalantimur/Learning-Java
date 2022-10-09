@@ -1,0 +1,2 @@
+# JAVA
+PRİMİTİVE TYPES
