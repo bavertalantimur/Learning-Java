@@ -1,3 +1,4 @@
 # JAVA
 ## Review Package
-Yıldızlara Şekil Oluşturma
+1.Yıldızlara Şekil Oluşturuldu
+2.Sifre İslemi Yapıldı
