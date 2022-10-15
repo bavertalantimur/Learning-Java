@@ -18,6 +18,10 @@ public class Class {
         System.out.println(c1.toplam());
 
 
+
+
+
+
     }
 
 
