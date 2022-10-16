@@ -1,6 +1,7 @@
 package Static;
 
 public class Student {
+    public int x;
     public String name;
     public int id,point;
     private static int counter=0;
@@ -9,6 +10,7 @@ public class Student {
         this.id=id;
         Student.counter++;
         this.point=point;
+        x++;
     }
 
     public void exit(){
@@ -25,5 +27,8 @@ public class Student {
             overall +=arr[i];
         }
         return  overall / arr.length;
+    }
+    public int value(){
+        return x;
     }
 }
