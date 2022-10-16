@@ -1,10 +1,15 @@
 package Oop;
 
 public class Class {
+    /*
+    * instance oluşturmamızı sağlar
+    * parantez içerisine değer girilerek objeye veri aktarımı sağlar
+    * Polyphism Animal a=new Cat();
+    *
+    * */
     public static void main(String[] arg){
         HesapMakinesi makine1=new HesapMakinesi();
-        makine1.sayi1=10;
-        makine1.sayi2=20;
+
         System.out.println("makine1 " + makine1.sayi1);
 
         HesapMakinesi makine2=new HesapMakinesi();

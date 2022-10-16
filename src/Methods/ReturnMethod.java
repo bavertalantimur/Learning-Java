@@ -1,6 +1,7 @@
 package Methods;
 
 
+import Arrays.Arrays;
 
 public class ReturnMethod {
     static int power(int a,int b){
@@ -17,6 +18,9 @@ public class ReturnMethod {
         int deger=power(5,6);
         System.out.println(deger);
         System.out.println();
+
+        /*Arrays arr=new Arrays();
+        arr.a=9;*/
 
 
     }
