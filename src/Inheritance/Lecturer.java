@@ -7,4 +7,9 @@ public class Lecturer extends Academician {
         super(nameSurname, eposta, phone, department, tasks, lessonns);
         this.unvan = unvan;
     }
+
+    public String  giris(){
+        return  this.unvan + " giris yapti ";
+    }
+
 }

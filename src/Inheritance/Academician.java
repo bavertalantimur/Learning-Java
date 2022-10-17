@@ -4,6 +4,10 @@ public class Academician extends Employee{
     String department,tasks;
     String lessonns;
 
+    public String giris(){
+        return super.giris()+"a kapısından ";
+    }
+
     public String getDepartment() {
         return department;
     }
