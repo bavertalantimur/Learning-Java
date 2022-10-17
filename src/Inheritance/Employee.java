@@ -8,6 +8,11 @@ public class Employee {
         return ++Employee.numberLogin;
     }
 
+    public String  giris(){
+        return  this.nameSurname + " giris yapti ";
+    }
+
+
     public Employee(String nameSurname,String eposta,String phone){
         this.nameSurname=nameSurname;
         this.eposta=eposta;

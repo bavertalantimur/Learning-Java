@@ -8,11 +8,17 @@ public class Main {
 
         System.out.println(Academician.login());
 
+
         Assistant ass1=new Assistant("sadad","dslkdsf","fklkfdsl","fdgfd","fdllşdf","fdfgfd","fdfdofdo");
         ass1.enterCourse();
         System.out.println(ass1.getNameSurname());
-        Lecturer l1=new Lecturer("fdlşsldsl","ofpdopgfo","opfdo","kdlflkgd","gdfdofd","dfllfdldf","fdşll");
+        Lecturer l1=new Lecturer("fdlşsldsl","ofpdopgfo","opfdo","kdlflkgd","gdfdofd","dfllfdldf","asistan");
         l1.enterCourse();
+        System.out.println(emp1.giris());
+        System.out.println(a1.giris());
+        System.out.println(l1.giris());
+
+
 
     }
 }
