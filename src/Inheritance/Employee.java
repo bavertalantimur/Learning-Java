@@ -41,4 +41,13 @@ public class Employee {
     }
 
 
+    public static void listele(Employee[] girisYapanlar){
+        for(Employee c: girisYapanlar){
+            // c= Employee emp2=new Academician("bawer","dfsldls","fsslşflşdsf","klfdklkdfkl","fgopopfds","fkld");
+            System.out.println(c.giris());
+        }
+
+    }
+
+
 }
