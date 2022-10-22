@@ -42,6 +42,17 @@ public class Generic {
         Test2<Integer,String>  test2=new Test2<>(10,"baver");
         test2.print();
 
+        System.out.println("----");
+
+        Integer[] arr={1,2,3,4};
+        Double[]  arrDouble={5.1,7.5,8.9};
+        Character[] arrCharacter={'K','D','l'};
+        GenericMethod.genericMethod(arrDouble);
+        System.out.println("----");
+        GenericMethod.genericMethod(arr);
+        System.out.println("----");
+        GenericMethod.genericMethod(arrCharacter);
+
 
 
 
